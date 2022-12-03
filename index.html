@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="project_styles.css">
+        <script src="https://kit.fontawesome.com/9ba5a8cf34.js" crossorigin="anonymous"></script> <!--Icon Resource-->
+        <meta charset="utf-8">
+        <title>Portfolio Projects</title>
+    </head>
+
+    <body>
+        <div class="head-bar" aria-lablledby="site header bar">
+            <h1 id="header-text" aria-label="site author">Eric Li</h1>
+            <nav role=navigation class="nav-menu">
+                <ul>
+                    <li nav aria-current=page tabIndex=0>Projects</li>
+                    <li tabIndex=1><a href="bio.html" aria-label="open bio">Bio</a></li>
+                    <li tabIndex=2>
+                        <a href="https://drive.google.com/file/d/1oxk9nQy0hOUYfNPUIyA0sIkp-eLvyrsV/view?usp=sharing"
+                            target="_blank" rel="noopener noreferrer" aria-label="open resume">Resume
+                            <i id="ext-link-icon" class="fa-solid fa-arrow-up-right-from-square" aria-label="external link icon"></i>
+                        </a>
+                    </li>
+                    <li tabIndex=3><a href="contact.html" aria-label="open contact">Contact</a></li>
+                </ul>
+            </nav>
+      </div>
+      
+      <section id="projects-container" aria-label="projects listing">
+        <div class="project-wrapper" aria-label="first showcase project overlay">
+            <p class="project-title" aria-label="first project title">Machine Learning Based Diagnosis of Sleep-related Hypermotor Epilepsy&nbsp;
+                <i class="fa-solid fa-moon" aria-label="nighttime icon"></i>
+            </p>
+            <div class="title-detail-separator" aria-label="separation between title and details"></div>
+            <p class="project-detail" aria-label="first project description">
+                The use of machine learning models to detect and diagnose sleep disorders has grown in popularity,
+                but research is sparse for sleep-related hypermotor epilepsy (SHE).
+                SHE is often misdiagnosed as other sleep disorders with similar yet non-epileptic motor events,
+                hindering patients' ability to receive proper treatment. Our research aimed to develop an effective machine learning
+                model to diagnose SHE based on electroencephalogram data during NREM sleep.
+                The accuracy of our model indicates the value of machine learning algorithms in differentiating SHE from healthy sleeping patterns,
+                while the ease of use provides insight into the feasibility of application in the clinical setting.
+            </p>
+            <a href="#modal" class="learn-more-button" aria-label="open learn more">Learn More</a>
+            <div id="modal" aria-label="modal container">
+                <div class="modal_window" aria-label="modal window">
+                    <a class="modal_close" href="#" aria-label="close modal">
+                        <i class="fa-solid fa-square-xmark" aria-label="close icon"></i>
+                    </a>
+                    <p class="project-title">Using Machine Learning Algorithms to Diagnose Sleep-related Hypermotor Epilepsy</p>
+                    <div class="title-detail-separator" aria-label="separation between title and details"></div>
+                    <div class="text-poster-wrapper" aria-label="modal content">
+                        <p class="modal-detail" aria-label="first project additional details">
+                            Sleep-related hypermotor epilepsy (SHE) is a rare sleep disorder characterized by brief hypermotor seizures during
+                            the non-rapid eye movement (NREM) stages of sleep.
+                            An electroencephalogram (EEG) measures electrical activity from the brain by placing electrodes
+                            on specific parts of the scalp to record signals throughout sleep. Abnormalities in signal recordings during NREM stages
+                            can indicate a sleep disorder, and EEG data is commonly utilized when diagnosing SHE. <br> <br>
+                            To develop our model, we employed 53 publicly available polysomnographic EEG recordings through random-forest,
+                            support-vector machine, and logistic regression learning algorithms. 70% of the EEG recordings were used to train while
+                            30% was used to test. The model was trained on the extracted mean, minimum, maximum, standard deviation, and variance for the alpha, beta, theta, and delta waves
+                            of each subject's EEG recording. <br> <br>
+                            Results indicate the model&#39;s ability to distinguish between EEG recordings of healthy patients and those with SHE.
+                            With a highest test accuracy of 81.3% in the random forest classifier, the model is not accurate enough to serve as an independent mode of SHE diagnosis.
+                            Howerver, it holds potential as an additional resource to assist the highly difficult SHE diagnosis process.
+                            Machine learning models of this type can support and expedite the manual process of EEG-based SHE diagnosis.
+                        </p>
+                        <a class="poster-link" href="https://drive.google.com/file/d/1vIQ3pt1HzjmPgPsty9jXyUTT8xTI5xu1/view?usp=sharing"
+                            target="_blank" rel="noopener noreferrer" aria-label="open poster">
+                            <img src="poster.jpeg" class="project-poster" alt="Project 1 Poster Image"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="project-wrapper" aria-label="second showcase project overlay">
+            <p class="project-title" aria-label="second project title">Bicycle Storage Optimization for 3440 North Lake Shore Drive&nbsp;
+                <i class="fa-solid fa-bicycle" aria-label="bike icon"></i>
+            </p>
+            <div class="title-detail-separator" aria-label="separation between title and details"></div>
+            <p class="project-detail" aria-label="second project description">
+                To reduce physical strain involved in vertical bicycle storage while maximizing bicycle storage capacity, my team and I designed HookUp, a tilt-based bicycle storage rack
+                for 3440 N. Lake Shore Drive. Employing a mounted hook, freestanding stand, and floor ramp, HookUp eliminates vertical lifting and requires
+                only the front half &nbsp; of a bike to be tilted. HookUp&#39;s freestanding structure provides vertical bike storage in areas previously not possible.
+                One specific place is the recycling room where our space optimization proposal, which rearranges the room&#39;s recycling bins, 
+                enables 10 additional bikes to be stored with the use of HookUp.
+            </p>
+            <a class="learn-more-button" aria-label="open learn more">Learn More</a>
+        </div>
+        
+      </section>
+
+    </body>
+</html>
