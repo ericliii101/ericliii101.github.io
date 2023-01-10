@@ -74,8 +74,8 @@ nav.nav-menu a{
 .project-wrapper {
     float:left;
     margin-top: 3%;
-    margin-left: 4.5%;
-    margin-right: 3%;
+    margin-left: 4%;
+    margin-right: 3.5%;
     margin-bottom: 40px;
     width: 400px;
     height: 350px;
@@ -83,7 +83,7 @@ nav.nav-menu a{
     height: 80%;
     background-color: #2e2e2e;
     border-radius: 25px;
-    outline: 3px #003333 solid;
+    border: 3px solid #003333;
 }
 
 .project-wrapper:hover {
@@ -98,7 +98,7 @@ nav.nav-menu a{
     height: 525px;
     background-color: #2e2e2e;
     border-radius: 25px;
-    outline: #003333 solid;
+    border: 3px solid #003333;
     overflow-y:auto;
 }
 
@@ -109,7 +109,7 @@ nav.nav-menu a{
     height: 220px;
     background-color: #2e2e2e;
     border-radius: 25px;
-    outline: #003333 solid;
+    border: 3px solid #003333;
 }
 
 .project-title {
@@ -270,7 +270,7 @@ nav.nav-menu a{
 }
 
 .contact-heading {
-    padding-top: 30px;
+    margin-top: 30px;
     margin-left: 52px;
     padding-left: 15px;
     padding-right: 15px;
