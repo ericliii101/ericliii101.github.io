@@ -55,9 +55,17 @@ nav.nav-menu a{
     text-decoration: none;
 }
 
-#projects-container {
+#projects-container-A {
     clear: both;
     margin-top: 140px;
+    margin-left: 7%;
+    width: 90%;
+    height: 600px;
+}
+
+#projects-container-B {
+    clear: both;
+    margin-top: -45px;
     margin-left: 7%;
     width: 90%;
     height: 600px;
@@ -66,7 +74,7 @@ nav.nav-menu a{
 .project-wrapper {
     float:left;
     margin-top: 3%;
-    margin-left: 4%;
+    margin-left: 4.5%;
     margin-right: 3%;
     margin-bottom: 40px;
     width: 400px;
@@ -110,6 +118,7 @@ nav.nav-menu a{
     padding-right: 15px;
     font-size: 27px;
     font-weight: bold;
+    line-height: 1.3;
 }
 
 .title-detail-separator {
@@ -147,7 +156,7 @@ nav.nav-menu a{
     box-shadow: 0px 0px 2px 3px #804515;
 }
 
-#modal {
+#modal-1 {
     position: fixed;
     top: 0;
     left: 0;
@@ -180,7 +189,11 @@ nav.nav-menu a{
     font-size: 40px;
 }
 
-#modal:not(:target) {
+.modal_close:hover{
+    color:#ffdfe1;
+}
+
+#modal-1:not(:target) {
     visibility: hidden;
     opacity: 0;
 }
@@ -202,7 +215,7 @@ nav.nav-menu a{
 
 .modal-detail {
     float: left;
-    margin-top: 8px;
+    margin-top: 20px;
     margin-left: 20px;
     width: 55%;
     line-height: 1.3;
@@ -214,13 +227,13 @@ nav.nav-menu a{
 	display: block;
 	margin: auto;
     margin-right: 70px;
-    margin-top: -28px;
+    margin-top: -34px;
     border-radius: 10px;
 }
 
 .project-poster {
-    width: 100%;
-	height: auto;
+    width: auto;
+	height: 100%;
     border: 6px solid #2e2e2e;
     border-radius: 10px;
 }
@@ -269,4 +282,71 @@ nav.nav-menu a{
     margin-top: 17px;
     margin-left: 57px;
     line-height: 2;
+}
+
+#modal-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-2:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#modal-3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-3:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#modal-4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal-4:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.project-thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	height: auto;
+    margin-top: 22px;
+    border: 7px solid #302f2f;
+    border-radius: 27px;
+}
+
+.project-thumbnail:hover{
+    border: 3px solid #c21807;
+    box-shadow: 1px 1px 8px 12px #2e2e2e;
 }
