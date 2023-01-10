@@ -177,7 +177,7 @@ nav.nav-menu a{
     padding: 30px;
     border-radius: 30px;
     border: 2px solid #222222;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
   
 .modal_close {
